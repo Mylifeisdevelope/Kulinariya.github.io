@@ -513,7 +513,9 @@ html{
     position: relative;
     overflow: hidden;
 }
-
+.popup__active{
+    z-index: 999;
+}
 .reservation::before {
     content: "";
     position: absolute;
